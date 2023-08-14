@@ -14,7 +14,7 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Table of Contents
 
-1. [Project 1: Exploring Cancer Rates by Country Data](#project-1-exploring-cancer-rates-by-country-data)
+1. [Project 1: Exploring Cancer Rates by Country](#project-1-exploring-cancer-rates-by-country)
 2. [Project 2: Project Title](#project-2-project-title)
 3. [Project 3: Project Title](#project-3-project-title)
 4. [Skills and Tools](#skills-and-tools)

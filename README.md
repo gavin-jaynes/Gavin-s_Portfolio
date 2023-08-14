@@ -20,5 +20,57 @@ Let's dive into the data together and make sense of the stories it holds!
 4. [Skills and Tools](#skills-and-tools)
 5. [Contact Information](#contact-information)
 
+---
+
+## Project 1: Exploring Cancer Rates by Country
+
+![E-Commerce Sales](images/e-commerce-sales.png)
+
+- **Description**: In this project, I analyzed sales data from an e-commerce platform to uncover trends, patterns, and opportunities for optimization.
+- **Skills Used**: Python, pandas, data visualization, exploratory data analysis.
+- **Code**: [Link to Jupyter Notebook](project-1/e-commerce-sales-analysis.ipynb)
+- **Results**: Visualized sales trends over time, identified peak sales periods, and recommended strategies to boost revenue.
+
+---
+
+## Project 2: Customer Segmentation with RFM Analysis
+
+![RFM Analysis](images/rfm-analysis.png)
+
+- **Description**: Utilizing RFM (Recency, Frequency, Monetary) analysis, I segmented customers based on their transaction behavior and identified distinct customer segments.
+- **Skills Used**: Data preprocessing, segmentation, customer behavior analysis, visualization.
+- **Code**: [Link to Jupyter Notebook](project-2/customer-segmentation-rfm.ipynb)
+- **Results**: Grouped customers into segments, outlined characteristics of each segment, and provided personalized marketing strategies for each group.
+
+---
+
+## Project 3: Stock Market Prediction using Time Series Analysis
+
+![Stock Market Prediction](images/stock-prediction.png)
+
+- **Description**: Employed time series analysis techniques to predict stock market trends and provide insights for informed investment decisions.
+- **Skills Used**: Time series forecasting, ARIMA model, data visualization.
+- **Code**: [Link to Jupyter Notebook](project-3/stock-market-prediction.ipynb)
+- **Results**: Developed a predictive model for stock price movements, evaluated model performance, and highlighted key indicators driving market trends.
+
+---
+
+## Skills and Tools
+
+- Programming Languages: Python
+- Data Manipulation: pandas, NumPy
+- Data Visualization: Matplotlib, Seaborn
+- Machine Learning: Scikit-learn
+- Tools: Jupyter Notebook, Git, GitHub
+- Databases: SQL, SQLite
+
+---
+
+## Contact Information
+
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- Email: [your.email@example.com](mailto:your.email@example.com)
+
+Feel free to connect with me on LinkedIn or reach out via email if you'd like to discuss projects, opportunities, or simply chat about data analysis. Let's analyze some data together!
 
 

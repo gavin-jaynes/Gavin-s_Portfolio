@@ -23,7 +23,8 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Project 1: Exploring Cancer Rates by Country
 
-![Cancer Causation](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/576ad1e7-d6f4-4e80-8f15-dc38457c9baa)
+![Cancer Causation](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/5741af0e-c8ad-4935-8bc0-bf90f43a289c)
+
 
 
 
@@ -37,7 +38,8 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Project 2: Google Data Analytics Capstone
 
-![RFM Analysis](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/fbfbf8cd-0292-4c51-b9fd-d49849d856a4)
+![RFM Analysis](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/fce25e68-2040-44ae-a8b2-1b274a179818)
+
 
 
 

@@ -15,10 +15,9 @@ Let's dive into the data together and make sense of the stories it holds!
 ## Table of Contents
 
 1. [Project 1: Exploring Cancer Rates by Country](#project-1-exploring-cancer-rates-by-country)
-2. [Project 2: Project Title](#project-2-project-title)
-3. [Project 3: Project Title](#project-3-project-title)
-4. [Skills and Tools](#skills-and-tools)
-5. [Contact Information](#contact-information)
+2. [Project 2: Google Data Analytics Capstone](#project-2-google-data-analytics-capstone)
+3. [Skills and Tools](#skills-and-tools)
+4. [Contact Information](#contact-information)
 
 ---
 
@@ -33,7 +32,7 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ---
 
-## Project 2: Customer Segmentation with RFM Analysis
+## Project 2: Google Data Analytics Capstone
 
 ![RFM Analysis](images/rfm-analysis.png)
 
@@ -44,32 +43,19 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ---
 
-## Project 3: Stock Market Prediction using Time Series Analysis
-
-![Stock Market Prediction](images/stock-prediction.png)
-
-- **Description**: Employed time series analysis techniques to predict stock market trends and provide insights for informed investment decisions.
-- **Skills Used**: Time series forecasting, ARIMA model, data visualization.
-- **Code**: [Link to Jupyter Notebook](project-3/stock-market-prediction.ipynb)
-- **Results**: Developed a predictive model for stock price movements, evaluated model performance, and highlighted key indicators driving market trends.
-
----
-
 ## Skills and Tools
 
-- Programming Languages: Python
-- Data Manipulation: pandas, NumPy
-- Data Visualization: Matplotlib, Seaborn
-- Machine Learning: Scikit-learn
-- Tools: Jupyter Notebook, Git, GitHub
-- Databases: SQL, SQLite
+- Programming Languages: R
+- Data Visualization: Tableu
+- Tools: Git, GitHub, Spreadsheets
+- Databases: SQL
 
 ---
 
 ## Contact Information
 
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- Email: [your.email@example.com](mailto:your.email@example.com)
+- LinkedIn: [Gavin's LinkedIn Profile](https://www.linkedin.com/in/gavin-jaynes-a58b3a213/)
+- Email: [gavin.jaynes57@gmail.com](mailto:gavin.jaynes57@gmail.com)
 
 Feel free to connect with me on LinkedIn or reach out via email if you'd like to discuss projects, opportunities, or simply chat about data analysis. Let's analyze some data together! TEST
 

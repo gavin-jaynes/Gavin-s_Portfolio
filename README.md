@@ -23,8 +23,8 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Project 1: Exploring Cancer Rates by Country
 
-![Cancer Causation](https://i.pinimg.com/564x/57/eb/44/57eb44a8cc29b5cac55df0d3dbed46e8.jpg)
-)
+![Cancer Causation](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/ccd2e76a-9cd7-4426-bd14-3b77342f3c96)
+
 
 - **Description**: In this project, I analyzed sales data from an e-commerce platform to uncover trends, patterns, and opportunities for optimization.
 - **Skills Used**: Python, pandas, data visualization, exploratory data analysis.
@@ -35,7 +35,9 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Project 2: Google Data Analytics Capstone
 
-![RFM Analysis](images/rfm-analysis.png)
+![RFM Analysis](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/6e2c956c-b9a7-4ce9-b79d-d7fb73bd9672)
+
+
 
 - **Description**: Utilizing RFM (Recency, Frequency, Monetary) analysis, I segmented customers based on their transaction behavior and identified distinct customer segments.
 - **Skills Used**: Data preprocessing, segmentation, customer behavior analysis, visualization.

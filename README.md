@@ -71,6 +71,6 @@ Let's dive into the data together and make sense of the stories it holds!
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
 - Email: [your.email@example.com](mailto:your.email@example.com)
 
-Feel free to connect with me on LinkedIn or reach out via email if you'd like to discuss projects, opportunities, or simply chat about data analysis. Let's analyze some data together!
+Feel free to connect with me on LinkedIn or reach out via email if you'd like to discuss projects, opportunities, or simply chat about data analysis. Let's analyze some data together! TEST
 
 

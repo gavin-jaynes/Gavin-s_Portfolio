@@ -23,7 +23,8 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Project 1: Exploring Cancer Rates by Country
 
-![E-Commerce Sales](images/e-commerce-sales.png)
+![Cancer Causation](![57eb44a8cc29b5cac55df0d3dbed46e8](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/eb2841b2-c4ee-4936-80ad-02e029f1ddc2)
+)
 
 - **Description**: In this project, I analyzed sales data from an e-commerce platform to uncover trends, patterns, and opportunities for optimization.
 - **Skills Used**: Python, pandas, data visualization, exploratory data analysis.

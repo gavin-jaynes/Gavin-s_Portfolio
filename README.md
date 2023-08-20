@@ -55,7 +55,8 @@ Let's dive into the data together and make sense of the stories it holds!
 
 - Programming Languages: R
 - Data Visualization: Tableu
-- Tools: Git, GitHub, Spreadsheets
+- Tools: Git, GitHub, Spreadsheets, R Studio
+- Packages: tidyverse; ggplot2, dplyr, tidyr, readr
 - Databases: SQL
 
 ---

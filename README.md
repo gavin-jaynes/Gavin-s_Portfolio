@@ -31,7 +31,7 @@ Let's dive into the data together and make sense of the stories it holds!
 
 - **Description**: In this project, I performed an exploratory data analysis (EDA) of geographical cancer rate data from the Kaggle platform to uncover trends, patterns, and findings concerning ozone-cancer correlation.
 - **Skills Used**: Google Spreadsheets (Excel), cleaning, Tableu for data visualization, chatGPT-3.5, Google Search Engine, exploratory data analysis.
-- **Code**: [Link to project](EDA:Cancer-Ozone_Correlation_project)
+- **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/EDA%3ACancer-Ozone_Correlation_project)
 - **Results**: Visualized cancer rates by international regions, researched to identify environmental factors concerning ozone, and advocate safety measures/precautions regarding sun protection.
 
 ---

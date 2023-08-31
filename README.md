@@ -29,10 +29,10 @@ Let's dive into the data together and make sense of the stories it holds!
 
 
 
-- **Description**: In this project, I analyzed sales data from an e-commerce platform to uncover trends, patterns, and opportunities for optimization.
-- **Skills Used**: Python, pandas, data visualization, exploratory data analysis.
+- **Description**: In this project, I performed an exploratory data analysis (EDA) of geographical cancer rate data from the Kaggle platform to uncover trends, patterns, and findings concerning ozone-cancer correlation.
+- **Skills Used**: Google Spreadsheets (Excel), cleaning, Tableu for data visualization, chatGPT-3.5, Google Search Engine, exploratory data analysis.
 - **Code**: [Link to Jupyter Notebook](project-1/e-commerce-sales-analysis.ipynb)
-- **Results**: Visualized sales trends over time, identified peak sales periods, and recommended strategies to boost revenue.
+- **Results**: Visualized cancer rates by international regions, researched to identify environmental factors concerning ozone, and advocate safety measures/precautions regarding sun protection.
 
 ---
 

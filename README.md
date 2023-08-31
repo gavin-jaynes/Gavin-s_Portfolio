@@ -46,7 +46,7 @@ Let's dive into the data together and make sense of the stories it holds!
 
 - **Description**: Utilizing RFM (Recency, Frequency, Monetary) analysis, I segmented customers based on their transaction behavior and identified distinct customer segments.
 - **Skills Used**: Data preprocessing, segmentation, customer behavior analysis, visualization.
-- **Code**: [Link to Jupyter Notebook](project-2/customer-segmentation-rfm.ipynb)
+- **Code**: [Link to project notes](EDA:Cancer-Ozone_Correlation_project)
 - **Results**: Grouped customers into segments, outlined characteristics of each segment, and provided personalized marketing strategies for each group.
 
 ---

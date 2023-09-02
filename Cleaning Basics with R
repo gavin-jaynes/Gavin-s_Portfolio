@@ -37,6 +37,7 @@ head(bookings_df)
 
 *RESULTS*
 
+['head()' Function](images/Screenshot (36).png)
 
 
 # I'll use function 'str()' to view a summarization of the dataset.

@@ -44,10 +44,10 @@ Let's dive into the data together and make sense of the stories it holds!
 
 
 
-- **Description**: Utilizing RFM (Recency, Frequency, Monetary) analysis, I segmented customers based on their transaction behavior and identified distinct customer segments.
-- **Skills Used**: Data preprocessing, segmentation, customer behavior analysis, visualization.
-- **Code**: [Link to project notes](EDA:Cancer-Ozone_Correlation_project)
-- **Results**: Grouped customers into segments, outlined characteristics of each segment, and provided personalized marketing strategies for each group.
+- **Description**: This project involves the essentials of data cleaning using R to prepare data for subsequent data analysis. Through meticulous data cleaning techniques, troubleshooting, and methods of ensuring the dataset is free for errors, inconsistencies, and anomalies. 
+- **Skills Used**: R Programming, Data Cleaning, Data Exploration, Problem-Solving, Documentation, Critical Thinking.
+- **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/Cleaning%20Basics%20with%20R)
+- **Results**: 
 
 ---
 

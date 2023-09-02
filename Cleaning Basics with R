@@ -37,7 +37,22 @@ head(bookings_df)
 
 *RESULTS*
 
-['head()' Function](images/Screenshot (36).png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Example</title>
+</head>
+<body>
+    <h1>Displaying an Image from a URL</h1>
+    
+    <!-- Replace the URL with the actual URL of your image -->
+    <img src="https://github.com/gavin-jaynes/Gavin-s_Portfolio/raw/main/images/Screenshot%20(36).png" alt="Image Description">
+    
+    <p>This is an example of how to display an image from a URL in HTML.</p>
+</body>
+</html>
 
 
 # I'll use function 'str()' to view a summarization of the dataset.

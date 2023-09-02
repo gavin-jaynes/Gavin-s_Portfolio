@@ -15,7 +15,7 @@ Let's dive into the data together and make sense of the stories it holds!
 ## Table of Contents
 
 1. [Project 1: Exploring Cancer Rates by Country](#project-1-exploring-cancer-rates-by-country)
-2. [Project 2: Google Data Analytics Capstone](#project-2-google-data-analytics-capstone)
+2. [Project 2: Cleaning Basics with R](#project-2-cleaning-basics-with-r)
 3. [Skills and Tools](#skills-and-tools)
 4. [Contact Information](#contact-information)
 

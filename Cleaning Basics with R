@@ -22,4 +22,106 @@ library(lubridate)
 
 ## Step 2: Import Data.
 
+# Here we'll be using the 'read_csv()' function to import csv data from "hotel_bookings.csv" in the project folder. We'll save this as a data frame as 'bookings_df'.
 
+bookings_df <- read_csv("hotel_bookings.csv")
+
+
+## Step 3: Explore Data
+
+# View the dataset to get an idea of its structure and contents. Here we can use multiple functions. Such as 'head()' or 'tal()' to view the first or last rows of a dataset. For this project, I'll showcase several of these functions.
+
+head(bookings_df)
+
+*RUN*
+
+*RESULTS*
+
+
+
+# I'll use function 'str()' to view a summarization of the dataset.
+
+str(bookings_df)
+
+*RUN*
+
+*RESULTS*
+
+spc_tbl_ [119,390 × 32] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
+ $ hotel                         : chr [1:119390] "Resort Hotel" "Resort Hotel" "Resort Hotel" "Resort Hotel" ...
+ $ is_canceled                   : num [1:119390] 0 0 0 0 0 0 0 0 1 1 ...
+ $ lead_time                     : num [1:119390] 342 737 7 13 14 14 0 9 85 75 ...
+ $ arrival_date_year             : num [1:119390] 2015 2015 2015 2015 2015 ...
+ $ arrival_date_month            : chr [1:119390] "July" "July" "July" "July" ...
+ $ arrival_date_week_number      : num [1:119390] 27 27 27 27 27 27 27 27 27 27 ...
+ $ arrival_date_day_of_month     : num [1:119390] 1 1 1 1 1 1 1 1 1 1 ...
+ $ stays_in_weekend_nights       : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
+ $ stays_in_week_nights          : num [1:119390] 0 0 1 1 2 2 2 2 3 3 ...
+ $ adults                        : num [1:119390] 2 2 1 1 2 2 2 2 2 2 ...
+ $ children                      : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
+ $ babies                        : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
+ $ meal                          : chr [1:119390] "BB" "BB" "BB" "BB" ...
+ $ country                       : chr [1:119390] "PRT" "PRT" "GBR" "GBR" ...
+ $ market_segment                : chr [1:119390] "Direct" "Direct" "Direct" "Corporate" ...
+ $ distribution_channel          : chr [1:119390] "Direct" "Direct" "Direct" "Corporate" ...
+ $ is_repeated_guest             : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
+ $ previous_cancellations        : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
+ $ previous_bookings_not_canceled: num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
+ $ reserved_room_type            : chr [1:119390] "C" "C" "A" "A" ...
+ $ assigned_room_type            : chr [1:119390] "C" "C" "C" "A" ...
+ $ booking_changes               : num [1:119390] 3 4 0 0 0 0 0 0 0 0 ...
+ $ deposit_type                  : chr [1:119390] "No Deposit" "No Deposit" "No Deposit" "No Deposit" ...
+ $ agent                         : chr [1:119390] "NULL" "NULL" "NULL" "304" ...
+ $ company                       : chr [1:119390] "NULL" "NULL" "NULL" "NULL" ...
+ $ days_in_waiting_list          : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
+ $ customer_type                 : chr [1:119390] "Transient" "Transient" "Transient" "Transient" ...
+ $ adr                           : num [1:119390] 0 0 75 75 98 ...
+ $ required_car_parking_spaces   : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
+ $ total_of_special_requests     : num [1:119390] 0 0 0 0 1 1 0 1 1 0 ...
+ $ reservation_status            : chr [1:119390] "Check-Out" "Check-Out" "Check-Out" "Check-Out" ...
+ $ reservation_status_date       : Date[1:119390], format: "2015-07-01" "2015-07-01" ...
+ - attr(*, "spec")=
+  .. cols(
+  ..   hotel = col_character(),
+  ..   is_canceled = col_double(),
+  ..   lead_time = col_double(),
+  ..   arrival_date_year = col_double(),
+  ..   arrival_date_month = col_character(),
+  ..   arrival_date_week_number = col_double(),
+  ..   arrival_date_day_of_month = col_double(),
+  ..   stays_in_weekend_nights = col_double(),
+  ..   stays_in_week_nights = col_double(),
+  ..   adults = col_double(),
+  ..   children = col_double(),
+  ..   babies = col_double(),
+  ..   meal = col_character(),
+  ..   country = col_character(),
+  ..   market_segment = col_character(),
+  ..   distribution_channel = col_character(),
+  ..   is_repeated_guest = col_double(),
+  ..   previous_cancellations = col_double(),
+  ..   previous_bookings_not_canceled = col_double(),
+  ..   reserved_room_type = col_character(),
+  ..   assigned_room_type = col_character(),
+  ..   booking_changes = col_double(),
+  ..   deposit_type = col_character(),
+  ..   agent = col_character(),
+  ..   company = col_character(),
+  ..   days_in_waiting_list = col_double(),
+  ..   customer_type = col_character(),
+  ..   adr = col_double(),
+  ..   required_car_parking_spaces = col_double(),
+  ..   total_of_special_requests = col_double(),
+  ..   reservation_status = col_character(),
+  ..   reservation_status_date = col_date(format = "")
+  .. )
+ - attr(*, "problems")=<externalptr> 
+
+# Breaking this down, we can see that this data frame has 119,390 observations (rows), and 32 variables (columns). In summary, the description of this data frame is 'spc_tbl_', and provides information about dimensions of the data frame, its class, and a summary of individaul data types.
+
+
+
+
+
+
+                                                

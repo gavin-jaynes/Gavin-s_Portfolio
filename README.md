@@ -36,9 +36,9 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ---
 
-## Project 2: Google Data Analytics Capstone
+## Project 2: Cleaning Basics with R
 
-![RFM Analysis](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/fce25e68-2040-44ae-a8b2-1b274a179818)
+![Data Cleaning R](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/fce25e68-2040-44ae-a8b2-1b274a179818)
 
 
 

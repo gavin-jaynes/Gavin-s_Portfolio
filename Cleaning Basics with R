@@ -1,0 +1,25 @@
+### Cleaning Basics with R
+
+## Step 1: Load Packages.
+
+install.packages("tidyverse")
+install.packages("skimr")
+install.packages("janitor")
+
+*RUN*
+
+# Now we can load the installed packages with the 'library()' function.
+
+library(tidyverse)
+library(skimr)
+library(janitor)
+
+# Sometimes there will be an error with loading packages. That's where we'll need to troubleshoot the funtions with 'lubridate'; a non-destructive manipulation of the data through parsing, and formatting date and time.
+
+install.packages("lubridate")
+library(lubridate)
+
+
+## Step 2: Import Data.
+
+

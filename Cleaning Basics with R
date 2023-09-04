@@ -20,11 +20,13 @@ install.packages("lubridate")
 library(lubridate)
 
 
+
 ## Step 2: Import Data.
 
 # Here we'll be using the 'read_csv()' function to import csv data from "hotel_bookings.csv" in the project folder. We'll save this as a data frame as 'bookings_df'.
 
 bookings_df <- read_csv("hotel_bookings.csv")
+
 
 
 ## Step 3: Explore Data
@@ -34,26 +36,6 @@ bookings_df <- read_csv("hotel_bookings.csv")
 head(bookings_df)
 
 *RUN*
-
-*RESULTS*
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Example</title>
-</head>
-<body>
-    <h1>Displaying an Image from a URL</h1>
-    
-    <!-- Replace the URL with the actual URL of your image -->
-    <img src="https://github.com/gavin-jaynes/Gavin-s_Portfolio/raw/main/images/Screenshot%20(36).png" alt="Image Description">
-    
-    <p>This is an example of how to display an image from a URL in HTML.</p>
-</body>
-</html>
-
 
 # I'll use function 'str()' to view a summarization of the dataset.
 
@@ -134,6 +116,64 @@ spc_tbl_ [119,390 × 32] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
  - attr(*, "problems")=<externalptr> 
 
 # Breaking this down, we can see that this data frame has 119,390 observations (rows), and 32 variables (columns). In summary, the description of this data frame is 'spc_tbl_', and provides information about dimensions of the data frame, its class, and a summary of individaul data types.
+
+#Another great option for viewing this dataset is with the 'glimpse()' function. It will provide us a preview of the data.
+
+glimpse(bookings_df)
+
+*RUN*
+
+# Now we'll use the 'colnames()' to give us just the column names of this dataset.
+
+colnames(bookings_df)
+
+*RUN*
+
+*RESULTS*
+
+[1] "hotel"                          "is_canceled"                   
+ [3] "lead_time"                      "arrival_date_year"             
+ [5] "arrival_date_month"             "arrival_date_week_number"      
+ [7] "arrival_date_day_of_month"      "stays_in_weekend_nights"       
+ [9] "stays_in_week_nights"           "adults"                        
+[11] "children"                       "babies"                        
+[13] "meal"                           "country"                       
+[15] "market_segment"                 "distribution_channel"          
+[17] "is_repeated_guest"              "previous_cancellations"        
+[19] "previous_bookings_not_canceled" "reserved_room_type"            
+[21] "assigned_room_type"             "booking_changes"               
+[23] "deposit_type"                   "agent"                         
+[25] "company"                        "days_in_waiting_list"          
+[27] "customer_type"                  "adr"                           
+[29] "required_car_parking_spaces"    "total_of_special_requests"     
+[31] "reservation_status"             "reservation_status_date"    
+
+# For our last example, we'll be using a more advanced function, 'skim_without_charts(),' for summarizing and exploring. This function will be from the 'skimr' package.
+
+skim_without_charts(bookings_df)
+
+*RUN*
+
+*RESULTS*
+
+Data Summary ────────────────────────
+                           Values     
+Name                       bookings_df
+Number of rows             119390     
+Number of columns          32         
+_______________________               
+Column type frequency:                
+  character                13         
+  Date                     1          
+  numeric                  18         
+________________________              
+Group variables            None       
+
+
+
+## Step 4: Cleaning Data
+
+# 
 
 
 

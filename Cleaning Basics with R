@@ -1,4 +1,5 @@
-### Cleaning Basics with R
+# Cleaning Basics with R
+
 
 ## Step 1: Load Packages.
 
@@ -6,24 +7,27 @@ install.packages("tidyverse")
 install.packages("skimr")
 install.packages("janitor")
 
-*RUN*
+RUN
 
-# Now we can load the installed packages with the 'library()' function.
+* Now we can load the installed packages with the 'library()' function.
 
 library(tidyverse)
 library(skimr)
 library(janitor)
 
-# Sometimes there will be an error with loading packages. That's where we'll need to troubleshoot the funtions with 'lubridate'; a non-destructive manipulation of the data through parsing, and formatting date and time.
+* Sometimes there will be an error with loading packages. That's where we'll need to troubleshoot the funtions with 'lubridate'; a non-destructive manipulation of the data through parsing, and formatting date and time.
 
 install.packages("lubridate")
 library(lubridate)
 
 
+* We can also  check to verifiy the packages we already have installed and loaded with 'search()'.
+
+
 
 ## Step 2: Import Data.
 
-# Here we'll be using the 'read_csv()' function to import csv data from "hotel_bookings.csv" in the project folder. We'll save this as a data frame as 'bookings_df'.
+* Here we'll be using the 'read_csv()' function to import csv data from "hotel_bookings.csv" in the project folder. We'll save this as a data frame as 'bookings_df'.
 
 bookings_df <- read_csv("hotel_bookings.csv")
 
@@ -31,19 +35,19 @@ bookings_df <- read_csv("hotel_bookings.csv")
 
 ## Step 3: Explore Data
 
-# View the dataset to get an idea of its structure and contents. Here we can use multiple functions. Such as 'head()' or 'tal()' to view the first or last rows of a dataset. For this project, I'll showcase several of these functions.
+* View the dataset to get an idea of its structure and contents. Here we can use multiple functions. Such as 'head()' or 'tail()' to view the first or last rows of a dataset. For this project, I'll showcase several of these functions.
 
 head(bookings_df)
 
-*RUN*
+RUN
 
-# I'll use function 'str()' to view a summarization of the dataset.
+* I'll use function 'str()' to view a summarization of the dataset.
 
 str(bookings_df)
 
-*RUN*
+RUN
 
-*RESULTS*
+RESULTS
 
 spc_tbl_ [119,390 × 32] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
  $ hotel                         : chr [1:119390] "Resort Hotel" "Resort Hotel" "Resort Hotel" "Resort Hotel" ...
@@ -115,21 +119,21 @@ spc_tbl_ [119,390 × 32] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
   .. )
  - attr(*, "problems")=<externalptr> 
 
-# Breaking this down, we can see that this data frame has 119,390 observations (rows), and 32 variables (columns). In summary, the description of this data frame is 'spc_tbl_', and provides information about dimensions of the data frame, its class, and a summary of individaul data types.
+* Breaking this down, we can see that this data frame has 119,390 observations (rows), and 32 variables (columns). In summary, the description of this data frame is 'spc_tbl_', and provides information about dimensions of the data frame, its class, and a summary of individaul data types.
 
-#Another great option for viewing this dataset is with the 'glimpse()' function. It will provide us a preview of the data.
+* Another great option for viewing this dataset is with the 'glimpse()' function. It will provide us a preview of the data.
 
 glimpse(bookings_df)
 
-*RUN*
+RUN
 
-# Now we'll use the 'colnames()' to give us just the column names of this dataset.
+* Now we'll use the 'colnames()' to give us just the column names of this dataset.
 
 colnames(bookings_df)
 
-*RUN*
+RUN
 
-*RESULTS*
+RESULTS
 
 [1] "hotel"                          "is_canceled"                   
  [3] "lead_time"                      "arrival_date_year"             
@@ -146,15 +150,17 @@ colnames(bookings_df)
 [25] "company"                        "days_in_waiting_list"          
 [27] "customer_type"                  "adr"                           
 [29] "required_car_parking_spaces"    "total_of_special_requests"     
-[31] "reservation_status"             "reservation_status_date"    
+[31] "reservation_status"             "reservation_status_date"  
 
-# For our last example, we'll be using a more advanced function, 'skim_without_charts(),' for summarizing and exploring. This function will be from the 'skimr' package.
+
+
+* For our last example, we'll be using a more advanced function, 'skim_without_charts(),' for summarizing and exploring. This function will be from the 'skimr' package.
 
 skim_without_charts(bookings_df)
 
-*RUN*
+RUN
 
-*RESULTS*
+RESULTS
 
 Data Summary ────────────────────────
                            Values     
@@ -173,11 +179,66 @@ Group variables            None
 
 ## Step 4: Cleaning Data
 
-# 
+### Handling Missing Data
 
+#### Identify Missing Values
 
+* Before addressing missing values, let's identify where they exist in our dataset. We can use the `is.na()` function to create a logical matrix that identifies missing values in each column.
 
+missing_values <- is.na(bookings_df)
 
+* Summarize all of our missing values in the dataset.
 
+print(missing_percentage)
 
-                                                
+RUN 
+
+RESULTS
+
+  hotel                    is_canceled 
+                   0.000000000                    0.000000000 
+                     lead_time              arrival_date_year 
+                   0.000000000                    0.000000000 
+            arrival_date_month       arrival_date_week_number 
+                   0.000000000                    0.000000000 
+     arrival_date_day_of_month        stays_in_weekend_nights 
+                   0.000000000                    0.000000000 
+          stays_in_week_nights                         adults 
+                   0.000000000                    0.000000000 
+                      children                         babies 
+                   0.003350364                    0.000000000 
+                          meal                        country 
+                   0.000000000                    0.000000000 
+                market_segment           distribution_channel 
+                   0.000000000                    0.000000000 
+             is_repeated_guest         previous_cancellations 
+                   0.000000000                    0.000000000 
+previous_bookings_not_canceled             reserved_room_type 
+                   0.000000000                    0.000000000 
+            assigned_room_type                booking_changes 
+                   0.000000000                    0.000000000 
+                  deposit_type                          agent 
+                   0.000000000                    0.000000000 
+                       company           days_in_waiting_list 
+                   0.000000000                    0.000000000 
+                 customer_type                            adr 
+                   0.000000000                    0.000000000 
+   required_car_parking_spaces      total_of_special_requests 
+                   0.000000000                    0.000000000 
+            reservation_status        reservation_status_date 
+                   0.000000000                    0.000000000 
+> 
+
+* We can see that we have no missing values within this dataset, except in the 'children' column with 0.003350364 results. However, selecting an appropriate imputation method is crucial. It depends on the data, the type of missing values, and the goals of the analysis. We'd need to ensure the chosen method matches the needs of our clients and validate it carefully to avoid skewing results or introducing bias. For now, we'll remove rows with missing values if possible.
+
+bookings_df_clean <- na.omit(bookings_df)
+
+* Now we know all missing values have been removed from the 'children' column.
+
+## Step 5: Remove Duplicates
+
+bookings_df_clean <- bookings_df_clean[!duplicated(bookings_df_clean), ]
+
+* Duplicates have been removed from the 'bookings_df_clean' dataframe.
+
+## Step 6: 

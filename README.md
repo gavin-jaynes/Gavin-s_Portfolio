@@ -38,7 +38,7 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Project 2: Cleaning Basics with R
 
-![Data Cleaning R](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/fce25e68-2040-44ae-a8b2-1b274a179818)
+![Data Cleaning R](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/images/wave-circle-letter-r-logo-icon-design-vector.jpg)
 
 
 
@@ -47,17 +47,17 @@ Let's dive into the data together and make sense of the stories it holds!
 - **Description**: This project involves the essentials of data cleaning using R to prepare data for subsequent data analysis. Through meticulous data cleaning techniques, troubleshooting, and methods of ensuring the dataset is free for errors, inconsistencies, and anomalies. 
 - **Skills Used**: R Programming, Data Cleaning, Data Exploration, Problem-Solving, Documentation, Critical Thinking.
 - **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/Cleaning%20Basics%20with%20R)
-- **Results**: 
+- **Results**: Loaded essential packages, imported and explored the dataset, addressed missing data, removed duplicates, and saved the clean data. 
 
 ---
 
 ## Skills and Tools
 
-- Programming Languages: R
-- Data Visualization: Tableu
-- Tools: Git, GitHub, Spreadsheets, R Studio
+- Programming Languages: R, SQL(DSL)
+- Data Visualization: Tableu, ggplot2
+- Tools: Git, GitHub, Excel, Spreadsheets R Studio, SQL
 - Packages: tidyverse; ggplot2, dplyr, tidyr, readr
-- Databases: SQL
+- Databases: BigQuery
 
 ---
 

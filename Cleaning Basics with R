@@ -1,181 +1,43 @@
-# Cleaning Basics with R
+# Data Cleaning Basics with R
 
 
-## Step 1: Load Packages.
+## Step 1: Load Packages
 
+### Install and load required packages
 install.packages("tidyverse")
 install.packages("skimr")
 install.packages("janitor")
+install.packages("lubridate")  ### Additional package for date manipulation
 
-RUN
-
-* Now we can load the installed packages with the 'library()' function.
-
+### Load the installed packages
 library(tidyverse)
 library(skimr)
 library(janitor)
-
-* Sometimes there will be an error with loading packages. That's where we'll need to troubleshoot the funtions with 'lubridate'; a non-destructive manipulation of the data through parsing, and formatting date and time.
-
-install.packages("lubridate")
 library(lubridate)
 
+### Verify loaded packages
+search()
 
-* We can also  check to verifiy the packages we already have installed and loaded with 'search()'.
+## Step 2: Import Data
 
-
-
-## Step 2: Import Data.
-
-* Here we'll be using the 'read_csv()' function to import csv data from "hotel_bookings.csv" in the project folder. We'll save this as a data frame as 'bookings_df'.
-
+### Import CSV data from "hotel_bookings.csv" and create a data frame
 bookings_df <- read_csv("hotel_bookings.csv")
-
-
 
 ## Step 3: Explore Data
 
-* View the dataset to get an idea of its structure and contents. Here we can use multiple functions. Such as 'head()' or 'tail()' to view the first or last rows of a dataset. For this project, I'll showcase several of these functions.
-
+### View the first few rows of the dataset
 head(bookings_df)
 
-RUN
+* As another option, I could also use 'tails' to view the last few rows of the dataset.
 
-* I'll use function 'str()' to view a summarization of the dataset.
-
+### Summarize the structure of the dataset
 str(bookings_df)
 
-RUN
-
-RESULTS
-
-spc_tbl_ [119,390 × 32] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
- $ hotel                         : chr [1:119390] "Resort Hotel" "Resort Hotel" "Resort Hotel" "Resort Hotel" ...
- $ is_canceled                   : num [1:119390] 0 0 0 0 0 0 0 0 1 1 ...
- $ lead_time                     : num [1:119390] 342 737 7 13 14 14 0 9 85 75 ...
- $ arrival_date_year             : num [1:119390] 2015 2015 2015 2015 2015 ...
- $ arrival_date_month            : chr [1:119390] "July" "July" "July" "July" ...
- $ arrival_date_week_number      : num [1:119390] 27 27 27 27 27 27 27 27 27 27 ...
- $ arrival_date_day_of_month     : num [1:119390] 1 1 1 1 1 1 1 1 1 1 ...
- $ stays_in_weekend_nights       : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
- $ stays_in_week_nights          : num [1:119390] 0 0 1 1 2 2 2 2 3 3 ...
- $ adults                        : num [1:119390] 2 2 1 1 2 2 2 2 2 2 ...
- $ children                      : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
- $ babies                        : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
- $ meal                          : chr [1:119390] "BB" "BB" "BB" "BB" ...
- $ country                       : chr [1:119390] "PRT" "PRT" "GBR" "GBR" ...
- $ market_segment                : chr [1:119390] "Direct" "Direct" "Direct" "Corporate" ...
- $ distribution_channel          : chr [1:119390] "Direct" "Direct" "Direct" "Corporate" ...
- $ is_repeated_guest             : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
- $ previous_cancellations        : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
- $ previous_bookings_not_canceled: num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
- $ reserved_room_type            : chr [1:119390] "C" "C" "A" "A" ...
- $ assigned_room_type            : chr [1:119390] "C" "C" "C" "A" ...
- $ booking_changes               : num [1:119390] 3 4 0 0 0 0 0 0 0 0 ...
- $ deposit_type                  : chr [1:119390] "No Deposit" "No Deposit" "No Deposit" "No Deposit" ...
- $ agent                         : chr [1:119390] "NULL" "NULL" "NULL" "304" ...
- $ company                       : chr [1:119390] "NULL" "NULL" "NULL" "NULL" ...
- $ days_in_waiting_list          : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
- $ customer_type                 : chr [1:119390] "Transient" "Transient" "Transient" "Transient" ...
- $ adr                           : num [1:119390] 0 0 75 75 98 ...
- $ required_car_parking_spaces   : num [1:119390] 0 0 0 0 0 0 0 0 0 0 ...
- $ total_of_special_requests     : num [1:119390] 0 0 0 0 1 1 0 1 1 0 ...
- $ reservation_status            : chr [1:119390] "Check-Out" "Check-Out" "Check-Out" "Check-Out" ...
- $ reservation_status_date       : Date[1:119390], format: "2015-07-01" "2015-07-01" ...
- - attr(*, "spec")=
-  .. cols(
-  ..   hotel = col_character(),
-  ..   is_canceled = col_double(),
-  ..   lead_time = col_double(),
-  ..   arrival_date_year = col_double(),
-  ..   arrival_date_month = col_character(),
-  ..   arrival_date_week_number = col_double(),
-  ..   arrival_date_day_of_month = col_double(),
-  ..   stays_in_weekend_nights = col_double(),
-  ..   stays_in_week_nights = col_double(),
-  ..   adults = col_double(),
-  ..   children = col_double(),
-  ..   babies = col_double(),
-  ..   meal = col_character(),
-  ..   country = col_character(),
-  ..   market_segment = col_character(),
-  ..   distribution_channel = col_character(),
-  ..   is_repeated_guest = col_double(),
-  ..   previous_cancellations = col_double(),
-  ..   previous_bookings_not_canceled = col_double(),
-  ..   reserved_room_type = col_character(),
-  ..   assigned_room_type = col_character(),
-  ..   booking_changes = col_double(),
-  ..   deposit_type = col_character(),
-  ..   agent = col_character(),
-  ..   company = col_character(),
-  ..   days_in_waiting_list = col_double(),
-  ..   customer_type = col_character(),
-  ..   adr = col_double(),
-  ..   required_car_parking_spaces = col_double(),
-  ..   total_of_special_requests = col_double(),
-  ..   reservation_status = col_character(),
-  ..   reservation_status_date = col_date(format = "")
-  .. )
- - attr(*, "problems")=<externalptr> 
-
-* Breaking this down, we can see that this data frame has 119,390 observations (rows), and 32 variables (columns). In summary, the description of this data frame is 'spc_tbl_', and provides information about dimensions of the data frame, its class, and a summary of individaul data types.
-
-* Another great option for viewing this dataset is with the 'glimpse()' function. It will provide us a preview of the data.
-
+### Preview the data using the 'glimpse' function
 glimpse(bookings_df)
 
-RUN
-
-* Now we'll use the 'colnames()' to give us just the column names of this dataset.
-
+### Get column names
 colnames(bookings_df)
-
-RUN
-
-RESULTS
-
-[1] "hotel"                          "is_canceled"                   
- [3] "lead_time"                      "arrival_date_year"             
- [5] "arrival_date_month"             "arrival_date_week_number"      
- [7] "arrival_date_day_of_month"      "stays_in_weekend_nights"       
- [9] "stays_in_week_nights"           "adults"                        
-[11] "children"                       "babies"                        
-[13] "meal"                           "country"                       
-[15] "market_segment"                 "distribution_channel"          
-[17] "is_repeated_guest"              "previous_cancellations"        
-[19] "previous_bookings_not_canceled" "reserved_room_type"            
-[21] "assigned_room_type"             "booking_changes"               
-[23] "deposit_type"                   "agent"                         
-[25] "company"                        "days_in_waiting_list"          
-[27] "customer_type"                  "adr"                           
-[29] "required_car_parking_spaces"    "total_of_special_requests"     
-[31] "reservation_status"             "reservation_status_date"  
-
-
-
-* For our last example, we'll be using a more advanced function, 'skim_without_charts(),' for summarizing and exploring. This function will be from the 'skimr' package.
-
-skim_without_charts(bookings_df)
-
-RUN
-
-RESULTS
-
-Data Summary ────────────────────────
-                           Values     
-Name                       bookings_df
-Number of rows             119390     
-Number of columns          32         
-_______________________               
-Column type frequency:                
-  character                13         
-  Date                     1          
-  numeric                  18         
-________________________              
-Group variables            None       
-
-
 
 ## Step 4: Cleaning Data
 
@@ -183,62 +45,46 @@ Group variables            None
 
 #### Identify Missing Values
 
-* Before addressing missing values, let's identify where they exist in our dataset. We can use the `is.na()` function to create a logical matrix that identifies missing values in each column.
-
+### Create a logical matrix for missing values
 missing_values <- is.na(bookings_df)
 
-* Summarize all of our missing values in the dataset.
+### Summarize missing value percentages
+missing_percentage <- colMeans(missing_values) * 100
 
+### Display missing value percentages
 print(missing_percentage)
 
-RUN 
-
-RESULTS
-
-  hotel                    is_canceled 
-                   0.000000000                    0.000000000 
-                     lead_time              arrival_date_year 
-                   0.000000000                    0.000000000 
-            arrival_date_month       arrival_date_week_number 
-                   0.000000000                    0.000000000 
-     arrival_date_day_of_month        stays_in_weekend_nights 
-                   0.000000000                    0.000000000 
-          stays_in_week_nights                         adults 
-                   0.000000000                    0.000000000 
-                      children                         babies 
-                   0.003350364                    0.000000000 
-                          meal                        country 
-                   0.000000000                    0.000000000 
-                market_segment           distribution_channel 
-                   0.000000000                    0.000000000 
-             is_repeated_guest         previous_cancellations 
-                   0.000000000                    0.000000000 
-previous_bookings_not_canceled             reserved_room_type 
-                   0.000000000                    0.000000000 
-            assigned_room_type                booking_changes 
-                   0.000000000                    0.000000000 
-                  deposit_type                          agent 
-                   0.000000000                    0.000000000 
-                       company           days_in_waiting_list 
-                   0.000000000                    0.000000000 
-                 customer_type                            adr 
-                   0.000000000                    0.000000000 
-   required_car_parking_spaces      total_of_special_requests 
-                   0.000000000                    0.000000000 
-            reservation_status        reservation_status_date 
-                   0.000000000                    0.000000000 
-> 
-
-* We can see that we have no missing values within this dataset, except in the 'children' column with 0.003350364 results. However, selecting an appropriate imputation method is crucial. It depends on the data, the type of missing values, and the goals of the analysis. We'd need to ensure the chosen method matches the needs of our clients and validate it carefully to avoid skewing results or introducing bias. For now, we'll remove rows with missing values if possible.
-
+### Handle missing values (example: removing rows with missing 'children' values)
 bookings_df_clean <- na.omit(bookings_df)
-
-* Now we know all missing values have been removed from the 'children' column.
 
 ## Step 5: Remove Duplicates
 
+### Remove duplicate rows
 bookings_df_clean <- bookings_df_clean[!duplicated(bookings_df_clean), ]
 
-* Duplicates have been removed from the 'bookings_df_clean' dataframe.
+## Step 6: Save the Clean Data
 
-## Step 6: 
+### Specify the file path for the cleaned data
+cleaned_data_file <- "GJs_Data_Projects.csv"
+
+### Save the cleaned data to a CSV file
+write.csv(bookings_df_clean, file = cleaned_data_file, row.names = FALSE)
+
+### Confirm the successful saving of the cleaned data
+if (file.exists(cleaned_data_file)) {
+  cat("Cleaned data saved successfully to", cleaned_data_file, "\n")
+} else {
+  cat("Error: Failed to save cleaned data to", cleaned_data_file, "\n")
+}
+
+ * Cleaned data saved successfully to GJs_Data_Projects.csv!
+
+
+# Conclusion
+
+In this project, I explored data cleaning basics with R. The proejct involves fixing missing data, removing duplicates, and saving cleaned data. As both an analyst and a musician, I recognize the importance of quality and excellence, whether it's in the realm of data analysis or the world of music.
+
+Thank you for taking your time to follow along with me in this project. Stay tuned for more data-related endeavors!:)
+
+
+

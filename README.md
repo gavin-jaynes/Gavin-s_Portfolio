@@ -14,8 +14,6 @@ Thank you for your interest!
 [Gavin M. Jaynes]
 [Phone: (208)569-9949]
 
-If you'd like to connect or discuss potential collaborations, don't hesitate to reach out via gavin.jaynes57@gmail.com or find me on [LinkedIn](https://www.linkedin.com/in/gavin-jaynes-a58b3a213/).
-
 Let's dive into the data together and make sense of the stories it holds!
 
 

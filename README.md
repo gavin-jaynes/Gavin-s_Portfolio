@@ -21,8 +21,9 @@ Let's dive into the data together and make sense of the stories it holds!
 
 1. [Project 1: Exploring Cancer Rates by Country](#project-1-exploring-cancer-rates-by-country)
 2. [Project 2: Cleaning Basics with R](#project-2-cleaning-basics-with-r)
-3. [Skills and Tools](#skills-and-tools)
-4. [Contact Information](#contact-information)
+3. [Project 3: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data](#project-3-exploring-airbnb-stay-patterns-in-new-york-city-2019-using-open-data)
+4. [Skills and Tools](#skills-and-tools)
+5. [Contact Information](#contact-information)
 
 ---
 

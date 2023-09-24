@@ -1,25 +1,17 @@
 Data Acquisition:
 
-Download the Airbnb NYC 2019 dataset from a reliable source.
+Download the Airbnb NYC 2019 open-dataset from Kaggle.com to PC.
 
 
-Import Data to BigQuery:
+Imports Data to Google Spreadsheets
 
-Open BigQuery Console.
-Create a new dataset for your project.
-Import the dataset from GCS into BigQuery.
-
-
-Data Exploration:
-
-Write SQL queries to explore the dataset.
-Understand the data schema and available columns.
-
+Explores and familiarizes the dataset.
 
 Data Cleaning:
 
-Identify and handle missing values.
-Remove duplicates if necessary.
+Identify and handle missing values through 'VLOOKUP' function or alternitvely search, remove, or replace method with CTRL + F.
+Remove duplicates if necessary. Data > Data Cleanup > Remove Duplicates. None.
+Remove spaces with 'ARRAYFORMULA(TRIM(A1:P48896))' or Data > Data Cleanup > Trim Whitespaces
 Correct data types as needed.
 
 

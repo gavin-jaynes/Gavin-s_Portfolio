@@ -9,22 +9,22 @@ Explores and familiarizes the dataset.
 
 Data Cleaning:
 
-Identify and handle missing values through 'VLOOKUP' function or alternitvely search, remove, or replace method with CTRL + F.
+Identify and handle missing values. Create new sheet for clean data and input in cell 'A1' function '=ARRAYFORMULA(IF(AB_NYC_2019!A1:P48896="", "N/A", AB_NYC_2019!A1:P48896))' to replace missing data with 'N/A'.
+
 Remove duplicates if necessary. Data > Data Cleanup > Remove Duplicates. None.
-Remove spaces with 'ARRAYFORMULA(TRIM(A1:P48896))' or Data > Data Cleanup > Trim Whitespaces
+Remove spaces with 'ARRAYFORMULA(TRIM(A1:P48896))' or Data > Data Cleanup > Trim Whitespaces.
 Correct data types as needed.
 
 
 Data Analysis:
 
-Formulate specific questions or hypotheses to answer.
-Write SQL queries to analyze the data based on your questions.
+
 
 
 Data Visualization:
 
-Use tools like Data Studio or Jupyter Notebook to create visualizations.
-Create charts, graphs, and maps to present your findings.
+Use Tableau
+Create charts, graphs, and maps to present findings.
 
 ---------------
 

@@ -55,7 +55,7 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Project 3: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data
 
-![Analyzing Airbnb Stays in NYC (2019](images/Airbnb-Logo.jpg)
+![Analyzing Airbnb Stays in NYC (2019](images/Airbnb-Logos.jpg)
 
 
 

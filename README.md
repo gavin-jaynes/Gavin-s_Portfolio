@@ -42,7 +42,7 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ## Project 2: Cleaning Basics with R
 
-![Data Cleaning R](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/images/wave-circle-letter-r-logo-icon-design-vector.jpg)
+![Data Cleaning R](images/wave-circle-letter-r-logo-icon-design-vector.jpg)
 
 
 - **Description**: This project involves the essentials of data cleaning using R to prepare data for subsequent data analysis. Through meticulous data cleaning techniques, troubleshooting, and methods of ensuring the dataset is free for errors, inconsistencies, and anomalies. 

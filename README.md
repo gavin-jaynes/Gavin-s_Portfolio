@@ -32,13 +32,11 @@ Let's dive into the data together and make sense of the stories it holds!
 ![Cancer Causation](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/5741af0e-c8ad-4935-8bc0-bf90f43a289c)
 
 
-
-
-
 - **Description**: In this project, I performed an exploratory data analysis (EDA) of geographical cancer rate data from the Kaggle platform to uncover trends, patterns, and findings concerning ozone-cancer correlation.
 - **Skills Used**: Google Spreadsheets (Excel), cleaning, Tableu for data visualization, chatGPT-3.5, Google Search Engine, exploratory data analysis.
 - **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/EDA%3ACancer-Ozone_Correlation_project)
 - **Results**: Visualized cancer rates by international regions, researched to identify environmental factors concerning ozone, and advocate safety measures/precautions regarding sun protection.
+
 
 ---
 
@@ -46,19 +44,26 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ![Data Cleaning R](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/images/wave-circle-letter-r-logo-icon-design-vector.jpg)
 
+
+- **Description**: This project involves the essentials of data cleaning using R to prepare data for subsequent data analysis. Through meticulous data cleaning techniques, troubleshooting, and methods of ensuring the dataset is free for errors, inconsistencies, and anomalies. 
+- **Skills Used**: R Programming, Data Cleaning, Data Exploration, Problem-Solving, Documentation, Critical Thinking.
+- **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/Cleaning%20Basics%20with%20)
+- **Results**: Loaded essential packages, imported and explored the dataset, addressed missing data, removed duplicates, and saved the clean data. 
+
+
 ---
 
 ## Project 3: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data
 
-![Analyzing Airbnb Stays in NYC (2019](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/Analyzing%20Airbnb%20Stays%20in%20NYC%20(2019))
+![Analyzing Airbnb Stays in NYC (2019]()
 
 
 
 
-- **Description**: This project involves the essentials of data cleaning using R to prepare data for subsequent data analysis. Through meticulous data cleaning techniques, troubleshooting, and methods of ensuring the dataset is free for errors, inconsistencies, and anomalies. 
-- **Skills Used**: R Programming, Data Cleaning, Data Exploration, Problem-Solving, Documentation, Critical Thinking.
-- **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/Cleaning%20Basics%20with%20R)
-- **Results**: Loaded essential packages, imported and explored the dataset, addressed missing data, removed duplicates, and saved the clean data. 
+- **Description**: 
+- **Skills Used**: 
+- **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/Analyzing%20Airbnb%20Stays%20in%20NYC%20(2019))
+- **Results**:
 
 ---
 

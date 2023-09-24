@@ -45,6 +45,11 @@ Let's dive into the data together and make sense of the stories it holds!
 
 ![Data Cleaning R](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/images/wave-circle-letter-r-logo-icon-design-vector.jpg)
 
+---
+
+## Project 3: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data
+
+![title](url)
 
 
 

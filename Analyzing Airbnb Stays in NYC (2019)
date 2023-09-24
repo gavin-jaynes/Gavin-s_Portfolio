@@ -1,1 +1,92 @@
-file path
+Data Acquisition:
+
+Download the Airbnb NYC 2019 dataset from a reliable source.
+
+
+Import Data to BigQuery:
+
+Open BigQuery Console.
+Create a new dataset for your project.
+Import the dataset from GCS into BigQuery.
+
+
+Data Exploration:
+
+Write SQL queries to explore the dataset.
+Understand the data schema and available columns.
+
+
+Data Cleaning:
+
+Identify and handle missing values.
+Remove duplicates if necessary.
+Correct data types as needed.
+
+
+Data Analysis:
+
+Formulate specific questions or hypotheses to answer.
+Write SQL queries to analyze the data based on your questions.
+
+
+Data Visualization:
+
+Use tools like Data Studio or Jupyter Notebook to create visualizations.
+Create charts, graphs, and maps to present your findings.
+
+---------------
+
+# Analyzing Airbnb Stays in NYC (2019)
+
+Brief description of your data project.
+
+## Overview
+
+Explain the purpose and objectives of your project. Provide context about the dataset you're analyzing.
+
+## Data
+
+- Describe the dataset source and any relevant information.
+- Provide instructions on how to download or access the data.
+- Include a brief description of the dataset in this section.
+
+## Analysis
+
+- Organize your analysis code into clear, labeled files (e.g., "data_cleaning.ipynb").
+- Include explanations and comments within your code to make it easily understandable.
+
+## Visualizations (Optional)
+
+- Store visualizations or charts here, if applicable.
+- Describe the visualizations and their insights.
+
+## Reports (Optional)
+
+- If you create reports or documents, include them here.
+- Mention the purpose and key findings of each report.
+
+## Usage
+
+Provide instructions on how to replicate your analysis. Include dependencies if necessary.
+
+## License
+
+Specify the license for your project (e.g., MIT License).
+
+## Contributors (Optional)
+
+List project contributors and their contributions.
+
+## References (Optional)
+
+Include references to data sources, libraries, or tools used.
+
+## Acknowledgments (Optional)
+
+Acknowledge contributions, inspiration, or support.
+
+## Contact
+
+Provide contact information or ways to reach you for questions or collaboration.
+
+

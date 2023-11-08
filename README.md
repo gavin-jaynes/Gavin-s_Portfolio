@@ -11,8 +11,6 @@ Feel free to explore my portfolio to see a collection of projects that showcase 
 
 Thank you for your interest!
 
-[Gavin M. Jaynes]
-[Phone: (208)569-9949]
 
 Let's dive into the data together and make sense of the stories it holds!
 

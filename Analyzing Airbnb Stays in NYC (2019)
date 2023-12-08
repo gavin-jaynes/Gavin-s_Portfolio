@@ -1,11 +1,18 @@
 Data Acquisition:
 
-Download the Airbnb NYC 2019 open-dataset from Kaggle.com to PC.
+Downloads the Airbnb NYC 2019 open-dataset from Kaggle.com to local PC.
 
 
 Imports Data to Google Spreadsheets
 
 Explores and familiarizes the dataset.
+
+Insights and Meta-data: 
+
+- It appears that the dataset contains information about Airbnb listings in New York, with each row representing a different listing. 
+- The columns name and rows reveal details like the listing name, host information, location (neighbourhood_group, neighbourhood, latitude, longitude), room type, pricing, minimum nights stay, number of reviews, last review date, reviews per month, host listings count, and availability throughout the year.
+- The data types in the dataset consist of integers, floats, and strings.
+- Inlcudes data sizes, host information, pricing, geographical information, and other unique identifiers.
 
 Data Cleaning:
 
@@ -18,67 +25,11 @@ Correct data types as needed.
 
 Data Analysis:
 
-
-
+Organizes and creates new table. Labels table as "Clean_Dataset". 
+This analysis provides a snapshot of Airbnb listings in New York City, covering key details like host information, geographical coordinates, review statistics, pricing, and availability. 
+The findings offer a concise overview, valuable for understanding trends in short-term rentals within the city.
 
 Data Visualization:
 
 Use Tableau
 Create charts, graphs, and maps to present findings.
-
----------------
-
-# Analyzing Airbnb Stays in NYC (2019)
-
-Brief description of your data project.
-
-## Overview
-
-Explain the purpose and objectives of your project. Provide context about the dataset you're analyzing.
-
-## Data
-
-- Describe the dataset source and any relevant information.
-- Provide instructions on how to download or access the data.
-- Include a brief description of the dataset in this section.
-
-## Analysis
-
-- Organize your analysis code into clear, labeled files (e.g., "data_cleaning.ipynb").
-- Include explanations and comments within your code to make it easily understandable.
-
-## Visualizations (Optional)
-
-- Store visualizations or charts here, if applicable.
-- Describe the visualizations and their insights.
-
-## Reports (Optional)
-
-- If you create reports or documents, include them here.
-- Mention the purpose and key findings of each report.
-
-## Usage
-
-Provide instructions on how to replicate your analysis. Include dependencies if necessary.
-
-## License
-
-Specify the license for your project (e.g., MIT License).
-
-## Contributors (Optional)
-
-List project contributors and their contributions.
-
-## References (Optional)
-
-Include references to data sources, libraries, or tools used.
-
-## Acknowledgments (Optional)
-
-Acknowledge contributions, inspiration, or support.
-
-## Contact
-
-Provide contact information or ways to reach you for questions or collaboration.
-
-

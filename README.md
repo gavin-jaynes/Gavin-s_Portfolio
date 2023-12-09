@@ -72,7 +72,7 @@ Thank you for your interest!
 
 ## Contact Information
 
-- LinkedIn: [Gavin's LinkedIn Profile](https://www.linkedin.com/in/gavin-jaynes-a58b3a213/)
+- LinkedIn: [Gavin's LinkedIn Profile](https://www.linkedin.com/in/gavin-j-a58b3a213/)
 - Email: [gavin.jaynes57@gmail.com](mailto:gavin.jaynes57@gmail.com)
 
 Feel free to connect with me on LinkedIn or reach out via email if you'd like to discuss projects, opportunities, or simply chat about data analysis. Let's analyze some data together! TEST

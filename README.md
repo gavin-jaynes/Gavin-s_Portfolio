@@ -5,7 +5,7 @@ Analytics_Portfolio
 
 Hi there! 👋 I'm Gavin, a data enthusiast with a passion for problem-solving. While my background is in data analytics, I'm excited to apply my skills to web development. Proficient in SQL, R, Excel, and Tableau, I'm on a journey to craft engaging online experiences.
 
-Explore my portfolio for projects showcasing my problem-solving and analytical mindset. My GitHub is evolving with new web development projects. For inquiries or to discuss collaboration, email me at gavin.jaynes57@gmail.com or find me on [LinkedIn](https://www.linkedin.com/in/gavin-jaynes-a58b3a213/) if you have any questions or would like to discuss my projects and skills further.
+Explore my portfolio for projects showcasing my problem-solving and analytical mindset. My GitHub is evolving with new web development projects. For inquiries or to discuss collaboration, email me at gavin.jaynes57@gmail.com or find me on [LinkedIn](https://www.linkedin.com/in/gavin-j-a58b3a213/) if you have any questions or would like to discuss my projects and skills further.
 
 Thank you for your interest!
 

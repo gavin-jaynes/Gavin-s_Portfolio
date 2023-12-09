@@ -3,16 +3,11 @@ Analytics_Portfolio
 
 ## About Me
 
-Hi there! 👋 I'm Gavin, a passionate data analyst with a strong curiosity for uncovering insights from data. I have a background in applying the six phases of analysis through the Google Data Analytics Professional Certificate program and a proven track record of skill based projects.
+Hi there! 👋 I'm Gavin, a data enthusiast with a passion for problem-solving. While my background is in data analytics, I'm excited to apply my skills to web development. Proficient in SQL, R, Excel, and Tableau, I'm on a journey to craft engaging online experiences.
 
-With a blend of analytical skills and a keen eye for detail, I'm dedicated to translating data into actionable insights that drive informed decision-making. I'm proficient in Structured Query Language (SQL), R Programming, Excel, Google Spreadsheets, Tableu, and I'm always excited to take on new challenges in the world of data analysis.
-
-Feel free to explore my portfolio to see a collection of projects that showcase my data cleaning, exploratory analysis, visualization, and problem-solving skills. However, please note that my GitHub portfolio is currently under construction, and I am actively working on adding new projects to showcase my skills and experience. I'm dedicated to continuous learning and improvement, and I appreciate your understanding as I work on building a comprehensive portfolio. Feel free to check back later for updates, or you can reach out to me directly via email at gavin.jaynes57@gmail.com or find me on [LinkedIn](https://www.linkedin.com/in/gavin-jaynes-a58b3a213/) if you have any questions or would like to discuss my projects and skills further.
+Explore my portfolio for projects showcasing my problem-solving and analytical mindset. My GitHub is evolving with new web development projects. For inquiries or to discuss collaboration, email me at gavin.jaynes57@gmail.com or find me on [LinkedIn](https://www.linkedin.com/in/gavin-jaynes-a58b3a213/) if you have any questions or would like to discuss my projects and skills further.
 
 Thank you for your interest!
-
-
-Let's dive into the data together and make sense of the stories it holds!
 
 
 ## Table of Contents

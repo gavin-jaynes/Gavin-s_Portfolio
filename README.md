@@ -12,15 +12,27 @@ Thank you for your interest!
 
 ## Table of Contents
 
-1. [Project 1: Exploring Cancer Rates by Country](#project-1-exploring-cancer-rates-by-country)
-2. [Project 2: Cleaning Basics with R](#project-2-cleaning-basics-with-r)
-3. [Project 3: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data](#project-3-exploring-airbnb-stay-patterns-in-new-york-city-2019-using-open-data)
-4. [Skills and Tools](#skills-and-tools)
-5. [Contact Information](#contact-information)
+1. [Project 1: Code Web Page Calculator](#project-1-code-web-page-calculator)
+2. [Project 2: Exploring Cancer Rates by Country](#project-2-exploring-cancer-rates-by-country)
+3. [Project 3: Cleaning Basics with R](#project-3-cleaning-basics-with-r)
+4. [Project 4: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data](#project-4-exploring-airbnb-stay-patterns-in-new-york-city-2019-using-open-data)
+5. [Skills and Tools](#skills-and-tools)
+6. [Contact Information](#contact-information)
+
+## Project 1: Code Web Page Calculator
+
+![Code Web Page Calculator]()
+
+
+- **Description**: In this project, I performed an exploratory data analysis (EDA) of geographical cancer rate data from the Kaggle platform to uncover trends, patterns, and findings concerning ozone-cancer correlation.
+- **Skills Used**: Google Spreadsheets (Excel), cleaning, Tableu for data visualization, chatGPT-3.5, Google Search Engine, exploratory data analysis.
+- **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/EDA%3ACancer-Ozone_Correlation_project)
+- **Results**: Visualized cancer rates by international regions, researched to identify environmental factors concerning ozone, and advocate safety measures/precautions regarding sun protection.
+
 
 ---
 
-## Project 1: Exploring Cancer Rates by Country
+## Project 2: Exploring Cancer Rates by Country
 
 ![Cancer Causation](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/5741af0e-c8ad-4935-8bc0-bf90f43a289c)
 
@@ -33,7 +45,7 @@ Thank you for your interest!
 
 ---
 
-## Project 2: Cleaning Basics with R
+## Project 3: Cleaning Basics with R
 
 ![Data Cleaning R](images/wave-circle-letter-r-logo-icon-design-vector.jpg)
 
@@ -46,7 +58,7 @@ Thank you for your interest!
 
 ---
 
-## Project 3: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data
+## Project 4: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data
 
 ![Analyzing Airbnb Stays in NYC (2019](images/Airbnb-Logos.jpg)
 

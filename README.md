@@ -24,10 +24,10 @@ Thank you for your interest!
 ![Code Web Page Calculator](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/images/ResizedScreen.png)
 
 
-- **Description**: For this 
-- **Skills Used**: 
+- **Description**: This project showcases my mastery of HTML, CSS, and JavaScript in building a dynamic web calculator. I honed not just coding skills but also critical thinking throughout the development process.
+- **Skills Used**: HTML, CSS, JavaScript, debugging, fundamentals of Object Oriented Programming (OOP), Critical Thinking, Technical/Growth-Mindset.
 - **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/Code%20Web%20Page%20Calculator%20project)
-- **Results**: 
+- **Results**: Crafted a seamlessly integrated web calculator, demonstrating proficiency in web development technologies and problem-solving.
 
 
 ---

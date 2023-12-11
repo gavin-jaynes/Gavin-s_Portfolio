@@ -1,1 +1,34 @@
+# Web Page Calculator Project
+
+## Overview
+
+Welcome to my Web Page Calculator project! This project was developed in Visual Studio Code while following along with a YouTube tutorial. Through this project, I gained valuable hands-on experience in building a functional and visually appealing web calculator using HTML, CSS, and JavaScript.
+
+---
+
+## Learning Journey
+
+The journey began with **HTML**, where I constructed the structure of the web page, laying down the foundation for the calculator. **CSS** came next, allowing me to enhance the visual appeal and aesthetics of the calculator, turning it from a basic layout into an eye-catching design.
+
+The real magic happened with **JavaScript**. This dynamic language brought the web application to life, adding functionality to the calculator. I learned to handle user input, perform calculations, and update the display in real-time.
+
+---
+
+## Challenges and Solutions
+
+Like any coding project, this journey was not without its challenges. **Syntax errors** tested my patience, but they also sharpened my debugging skills. One notable challenge involved non-functional calculator buttons. Thanks to the developer tools in my browser, I was able to inspect and identify the issue, realizing that correct object usage (`calculator.appendNumber` instead of `Calculator.appendNumber`) was the key.
+
+---
+
+## Key Takeaways
+
+Through this project, I grasped the importance of the HTML-CSS-JavaScript trio in web development. **HTML** serves as the skeleton, providing structure; **CSS** brings life to the appearance and cosmetics, making it visually appealing; and **JavaScript** acts as the conductor, orchestrating the dynamic movements and actions of the calculator.
+
+---
+
+## Conclusion
+
+In the end, I successfully created a fully functional web page calculator that not only performs calculations but also showcases my growing skills in web development. Feel free to explore the code, learn from my experience, and let this project inspire your coding journey!
+
+Explore the [Web Calculator](http://127.0.0.1:5500/index.html) live!
 

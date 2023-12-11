@@ -21,7 +21,7 @@ Thank you for your interest!
 
 ## Project 1: Code Web Page Calculator
 
-![Code Web Page Calculator](images/ResizedScreen.png)
+![Code Web Page Calculator](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/images/ResizedScreen.png)
 
 
 - **Description**: For this 

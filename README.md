@@ -3,7 +3,7 @@ Analytics_Portfolio
 
 ## About Me
 
-Hi there! 👋 I'm Gavin, a data enthusiast with a passion for problem-solving. While my background is in data analytics, I'm excited to apply my skills to web development. Proficient in SQL, R, Excel, and Tableau, I'm on a journey to craft engaging online experiences.
+Hi there! 👋 I'm Gavin, a data enthusiast with a passion for problem-solving. While my background is in data analytics, I'm excited to apply my skills to Back-End Web Development. Proficient in SQL, R, HTML, and technical thinking, I'm on a journey to craft engaging online experiences.
 
 Explore my portfolio for projects showcasing my problem-solving and analytical mindset. My GitHub is evolving with new web development projects. For inquiries or to discuss collaboration, email me at gavin.jaynes57@gmail.com or find me on [LinkedIn](https://www.linkedin.com/in/gavin-j-a58b3a213/) if you have any questions or would like to discuss my projects and skills further.
 
@@ -24,10 +24,10 @@ Thank you for your interest!
 ![Code Web Page Calculator]()
 
 
-- **Description**: In this project, I performed an exploratory data analysis (EDA) of geographical cancer rate data from the Kaggle platform to uncover trends, patterns, and findings concerning ozone-cancer correlation.
-- **Skills Used**: Google Spreadsheets (Excel), cleaning, Tableu for data visualization, chatGPT-3.5, Google Search Engine, exploratory data analysis.
-- **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/EDA%3ACancer-Ozone_Correlation_project)
-- **Results**: Visualized cancer rates by international regions, researched to identify environmental factors concerning ozone, and advocate safety measures/precautions regarding sun protection.
+- **Description**: For this 
+- **Skills Used**: 
+- **Code**: [Link to project](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/Code%20Web%20Page%20Calculator%20project)
+- **Results**: 
 
 
 ---

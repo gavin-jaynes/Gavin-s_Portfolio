@@ -27,7 +27,7 @@ Thank you for your interest!
 
 - **Description**: Welcome to my API Weather Web Application! Developed with Visual Studio Code and inspired by a YouTube tutorial, this project is my journey in crafting a functional and visually appealing weather app, covering HTML, CSS, JavaScript, API Integration, and debugging.
 - **Skills Used**: HTML, CSS, JavaScript, API Integration, Debugging, Technical/Growth Mindset.
-- **Code**: [GitHub Repo]()
+- **Code**: [Link to project]()
 - **Results**: This project not only looks great but also delivers up-to-date weather information and forecasts. Gained hands-on API integration experience, obtaining a unique key from OpenWeatherMap, highlighting the significance of secure data access.
 
 

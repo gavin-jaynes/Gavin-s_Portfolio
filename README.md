@@ -12,14 +12,28 @@ Thank you for your interest!
 
 ## Table of Contents
 
-1. [Project 1: Code Web Page Calculator](#project-1-code-web-page-calculator)
-2. [Project 2: Exploring Cancer Rates by Country](#project-2-exploring-cancer-rates-by-country)
-3. [Project 3: Cleaning Basics with R](#project-3-cleaning-basics-with-r)
-4. [Project 4: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data](#project-4-exploring-airbnb-stay-patterns-in-new-york-city-2019-using-open-data)
-5. [Skills and Tools](#skills-and-tools)
-6. [Contact Information](#contact-information)
+1. [Project 1: API Weather Application](#project-1-api-weather-application)
+2. [Project 2: Code Web Page Calculator](#project-2-code-web-page-calculator)
+3. [Project 3: Exploring Cancer Rates by Country](#project-3-exploring-cancer-rates-by-country)
+4. [Project 4: Cleaning Basics with R](#project-4-cleaning-basics-with-r)
+5. [Project 5: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data](#project-5-exploring-airbnb-stay-patterns-in-new-york-city-2019-using-open-data)
+6. [Skills and Tools](#skills-and-tools)
+7. [Contact Information](#contact-information)
 
-## Project 1: Code Web Page Calculator
+## Project 1: API Weather Application
+
+![Build Weather API Application](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/images/ResizedScreen(2).png)
+
+
+- **Description**: Welcome to my API Weather Web Application! Developed with Visual Studio Code and inspired by a YouTube tutorial, this project is my journey in crafting a functional and visually appealing weather app, covering HTML, CSS, JavaScript, API Integration, and debugging.
+- **Skills Used**: HTML, CSS, JavaScript, API Integration, Debugging, Technical/Growth Mindset.
+- **Code**: [GitHub Repo]()
+- **Results**: This project not only looks great but also delivers up-to-date weather information and forecasts. Gained hands-on API integration experience, obtaining a unique key from OpenWeatherMap, highlighting the significance of secure data access.
+
+
+---
+
+## Project 2: Code Web Page Calculator
 
 ![Code Web Page Calculator](https://github.com/gavin-jaynes/Gavin-s_Portfolio/blob/main/images/ResizedScreen.png)
 
@@ -32,7 +46,7 @@ Thank you for your interest!
 
 ---
 
-## Project 2: Exploring Cancer Rates by Country
+## Project 3: Exploring Cancer Rates by Country
 
 ![Cancer Causation](https://github.com/gavin-jaynes/Gavin-s_Portfolio/assets/141529382/5741af0e-c8ad-4935-8bc0-bf90f43a289c)
 
@@ -45,7 +59,7 @@ Thank you for your interest!
 
 ---
 
-## Project 3: Cleaning Basics with R
+## Project 4: Cleaning Basics with R
 
 ![Data Cleaning R](images/wave-circle-letter-r-logo-icon-design-vector.jpg)
 
@@ -58,7 +72,7 @@ Thank you for your interest!
 
 ---
 
-## Project 4: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data
+## Project 5: Exploring Airbnb Stay Patterns in New York City (2019) using Open Data
 
 ![Analyzing Airbnb Stays in NYC (2019](images/Airbnb-Logos.jpg)
 

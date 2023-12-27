@@ -3,9 +3,9 @@ Analytics_Portfolio
 
 ## About Me
 
-Hi there! 👋 I'm Gavin, a data enthusiast with a passion for problem-solving. While my background is in data analytics, I'm excited to apply my skills to Back-End Web Development. Proficient in SQL, R, HTML, and technical thinking, I'm on a journey to craft engaging online experiences.
+Hello! 👋 I'm Gavin, a data enthusiast and skilled data analyst. I thrive on solving complex problems and have a background in data analytics. Currently, I'm venturing into the world of Back-End Web Development, leveraging my proficiency in SQL, R, HTML, and technical thinking to craft engaging online experiences.
 
-Explore my portfolio for projects showcasing my problem-solving and analytical mindset. My GitHub is evolving with new web development projects. For inquiries or to discuss collaboration, email me at gavin.jaynes57@gmail.com or find me on [LinkedIn](https://www.linkedin.com/in/gavin-j-a58b3a213/) if you have any questions or would like to discuss my projects and skills further.
+Check out my portfolio to explore projects that highlight my problem-solving and analytical mindset. My GitHub is continually evolving with new projects. If you have inquiries or wish to discuss potential collaborations, feel free to email me at gavin.jaynes57@gmail.com or connect with me on LinkedIn.
 
 Thank you for your interest!
 

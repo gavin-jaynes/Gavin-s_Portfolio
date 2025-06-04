@@ -2,11 +2,9 @@
 
 ## About Me
 
-Hello! I'm Gavin Jaynes. I'm a Computer Science student at Boise State University with a focus in Machine Learning, building a strong foundation in software development, data workflows, and technical problem-solving. My current work centers around Node.js, JavaScript, SQL, and R, tools I’ve used to build RESTful APIs and explore real-world datasets including an in-depth project on global cancer rates. I also bring hands-on experience from the field as a former test technician in imaging hardware where I learned the value of precision and systems thinking.
+Hello! I'm Gavin Jaynes. Computer Science student at Boise State with a focus in Machine Learning and a growing skill set in software development and data analysis. I work with Node.js, JavaScript, SQL, and R to build web applications and explore real-world data. Former test technician with hands-on industry experience and a mindset grounded in precision and problem-solving.
 
-This portfolio reflects my learning journey, personal projects, and growing technical skillset. I’m always open to collaboration, feedback, or connecting with others in tech. Feel free to reach out any time.
-
-Thanks for visiting!
+Feel free to explore my projects or reach out to connect. Thanks for stopping by!
 
 ## Table of Contents
 

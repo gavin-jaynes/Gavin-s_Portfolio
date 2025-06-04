@@ -101,8 +101,7 @@ Thank you for your interest!
 
 ## Contact Information
 
-- **Phone**: 208.569.9949
-- **Email**: [gavin.jaynes57@gmail.com](mailto:gavin.jaynes57@gmail.com)
+
 - **LinkedIn**: [Gavin's LinkedIn Profile](https://www.linkedin.com/in/gavin-j/)
 
 Feel free to connect with me on LinkedIn or reach out via email if you'd like to discuss projects, opportunities, or data analysis. Let's work together to create innovative solutions!

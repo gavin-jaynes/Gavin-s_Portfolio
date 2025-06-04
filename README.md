@@ -2,11 +2,11 @@
 
 ## About Me
 
-Hello! I'm Gavin Jaynes, a passionate and detail-oriented Web Developer with a background in data analysis and non-destructive testing. I specialize in developing web applications and RESTful APIs, with a strong focus on quality, analytical problem-solving, and continuous learning. My GitHub portfolio features a range of projects that demonstrate my expertise in Node.js, SQL, JavaScript, R, and data analysis. I am committed to delivering innovative solutions in both web development and data analysis.
+Hello! I'm Gavin Jaynes. I'm a Computer Science student at Boise State University with a focus in Machine Learning, building a strong foundation in software development, data workflows, and technical problem-solving. My current work centers around Node.js, JavaScript, SQL, and R, tools I’ve used to build RESTful APIs and explore real-world datasets including an in-depth project on global cancer rates. I also bring hands-on experience from the field as a former test technician in imaging hardware where I learned the value of precision and systems thinking.
 
-Explore my portfolio to see my projects and skills in action. For any inquiries or collaboration opportunities, feel free to connect with me on LinkedIn or reach out via email.
+This portfolio reflects my learning journey, personal projects, and growing technical skillset. I’m always open to collaboration, feedback, or connecting with others in tech. Feel free to reach out any time.
 
-Thank you for your interest!
+Thanks for visiting!
 
 ## Table of Contents
 

@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hello there! I'm a Computer Science student at Boise State with a focus in Machine Learning and a growing skill set in software development and data analysis. I work with Node.js, JavaScript, SQL, and R to build web applications and explore real-world data. Former test technician with hands-on industry experience and a mindset grounded in precision and problem-solving.
+Hello there! I'm a Computer Science student at Boise State with a focus in Machine Learning and a growing skill set in software development and data analysis. I work with Node.js, JavaScript, React Native, Jira, SQL, and R to build web applications and explore real-world data. Former test technician with hands-on industry experience and a mindset grounded in precision and problem-solving.
 
 Feel free to explore my projects or reach out to connect. Thanks for stopping by!
 
